@@ -3,10 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
+import { ProtectComponent } from './components/protect/protect.component';
+import { PricesComponent } from './components/prices/prices.component';
+import { CallbackComponent } from './components/callback/callback.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    HomeComponent,
+    ProtectComponent,
+    PricesComponent,
+    CallbackComponent
   ],
   imports: [
     BrowserModule,
